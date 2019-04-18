@@ -4,11 +4,3 @@ app = Flask(__name__)
 @app.route("/")
 def hello():
     return "Hello World!"
-
-@app.route("/sypy")
-def sypy():
-    return "Hello SyPy!"
-
-@app.route("/webapps")
-def webapps():
-    return "Web Apps with Kudu Rule!"
