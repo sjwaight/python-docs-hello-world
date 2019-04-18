@@ -8,3 +8,7 @@ def hello():
 @app.route("/sypy")
 def sypy():
     return "Hello SyPy!"
+
+@app.route("/webapps")
+def webapps():
+    return "Web Apps with Kudu Rule!"
